@@ -1,0 +1,1000 @@
+  124  ls
+  125  cd sphinx/
+  126  ls
+  127  vim REAMDME.md
+  128  ls
+  129  vim REAMDME.md
+  130  ls
+  131  cp REAMDME.md ~/blog/
+  132  ls
+  133  cd 
+  134  ls
+  135  cd blog/
+  136  ls
+  137  cat README.md 
+  138  rm README.md 
+  139  git status 
+  140  git rm README.md 
+  141  git status 
+  142  git mv REAMDME.md README.md
+  143  mv REAMDME.md README.md
+  144  ls
+  145  git status 
+  146  git add  README.md 
+  147  ls
+  148  git commit -m"fixed README.md"
+  149  git push -u origin master 
+  150  ls
+  151  cd _static/
+  152  ls
+  153  vim websupport.js 
+  154  cd ../_sources/
+  155  ls
+  156  vim ch10-style-guide.rst.txt 
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd blog/
+  162  ls
+  163  vim searchindex.js 
+  164  cd _static/
+  165  ls
+  166  cd css/
+  167  ls
+  168  cd
+  169  cd sphinx/
+  170  ;s
+  171  ls
+  172  cd source/
+  173  ls
+  174  cd _templates/
+  175  ls
+  176  cd ..
+  177  vim preface
+  178  vim conf.py 
+  179  whereis sphix
+  180  whereis 'sphinx'
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd source/
+  185  ls
+  186  vim conf.py 
+  187  ls
+  188  cd ..
+  189  ls
+  190  cat make.bat 
+  191  cls
+  192  ls
+  193  cd build/
+  194  ls
+  195  cd doctrees/
+  196  ls
+  197  cat preface.doctree 
+  198  XshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshell
+  199  ls -al
+  200  vim preface.doctree 
+  201  cd 
+  202  ls
+  203  cd sphinx/
+  204  ls
+  205  cd source/
+  206  ls
+  207  vim preface
+  208  vim preface.rst 
+  209  ls
+  210  make html
+  211  cd ..
+  212  ls
+  213  make html
+  214  exit
+  215  history 
+  216  ls
+  217  cd git_learning/
+  218  ls
+  219  git status 
+  220  git log 
+  221  git pull
+  222  git status 
+  223  ls
+  224  cat _config.yml 
+  225  ls
+  226  cat history.txt 
+  227  ls
+  228  cd .git/
+  229  ls
+  230  vim  config 
+  231  cd refs/
+  232  ls
+  233  cd tags/
+  234  ls
+  235  ll
+  236  ls -al
+  237  cd ../heads/
+  238  ls
+  239  pwd
+  240  cat master 
+  241  git cat-file -t b3e93
+  242  git cat-file -t b3e9e1d9b884b109
+  243   cd ..
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd objects/
+  248  ls -al
+  249  cd e7/
+  250  ls -al
+  251  git cat-file -t 16a07c7e6295c4b342fcd9a03fd8be01a0ef61
+  252  ls -al
+  253  git cat-file -t 16a07c
+  254  cd ..
+  255  ls
+  256  cd a6
+  257  ls
+  258  ls -al
+  259  git cat-file -t edd8c67f
+  260  git cat-file -p edd8c67fb4717c79ab4a5d918b37a8d13bbfeb
+  261  cd ../
+  262  ls
+  263  git branch
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd ..
+  268  ls
+  269  git branch temp
+  270  git branch 
+  271  ls
+  272  git checkout temp 
+  273  ls
+  274  git branch 
+  275  ls
+  276  git branch master 
+  277  git checkout master 
+  278  ls
+  279  git log 
+  280  git cat-file -p f31c73c3df90a
+  281  git cat-file -p 13dc406e31bc77
+  282  ls
+  283  git cat-file
+  284  git cat-file -p  13dc406e31bc77
+  285  ls
+  286  git cat-file -p  3fb332a867512
+  287  git cat-file -p  d94af428e9b5b
+  288  git cat-file -p  3fb332a867512
+  289  git cat-file -p  fc62d5e5fb
+  290  git cat-file -p  daf480669a
+  291  XshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellq
+  292  ls
+  293  git init watch_git_objets
+  294  cd watch_git_objets/
+  295  ls
+  296  mkdir doc
+  297  git status 
+  298  cd doc/
+  299  echo "hello world" > readme
+  300  ..
+  301  cd ..
+  302  ls
+  303  git status 
+  304  find .git/objects/ -type f
+  305  git add doc/
+  306  git status 
+  307  find .git/objects/ -type f
+  308  git cat-file -p 18e512dba7
+  309  git cat-file -p .git/objects/3b/18e512dba79e4c8300dd08aeb37f8e728b8dad
+  310  git cat-file -p .git/objects/3b/18e512dba
+  311  git cat-file -t 18e512dba7
+  312  git cat-file -t 3b/18e512dba
+  313  git cat-file -t 18e512dba
+  314  find .git/objects/ -type f
+  315  cd .git/objects/
+  316  ls -al
+  317  cd 3b/
+  318  ls
+  319  git cat-file -t 18e52
+  320  ls
+  321  pwd
+  322  cd ../../..
+  323  ls
+  324  cd doc/
+  325  ls
+  326  cat readme 
+  327  cd ..
+  328  git status 
+  329  git cat-file -t 18e512dba79e4c
+  330  git cat-file -p 18e512dba79e4c
+  331  git add doc/
+  332  git status 
+  333  find .git/objects -type -f
+  334  find .git/objects -type f
+  335  git cat-file -t 18e512dba79e
+  336  git commit -m"Add readme"
+  337  find .git/objects -type f
+  338   git status 
+  339  find .git/objects -type f
+  340  git cat-file -t 18e512dba7
+  341  git cat-file -t 3b/18e512dba7
+  342  git cat-file -t 3b18e512dba7
+  343  git cat-file -p 3b18e512dba7
+  344  git cat-file -p 2c5264370f
+  345  git cat-file -p f55a12e98
+  346  git cat-file -p c34cd2357
+  347  git cat-file -t c34cd2357
+  348  git cat-file -5 f55a12e98
+  349  git cat-file -t f55a12e98
+  350  git cat-file -t 18e512dba7
+  351  git cat-file -t 2c5264370f
+  352  find .git/objects -type f
+  353  git cat-file -t 3b18e512
+  354  git cat-file -p 3b18e512
+  355  git cat-file -p 2c526437
+  356  git cat-file -t 2c526437
+  357  git cat-file -t f55a12e98
+  358  git cat-file -p f55a12e98
+  359  git cat-file -t c34cd2357142d
+  360  git cat-file -p c34cd2357142d
+  361  git checkout 
+  362  cd ..
+  363  git status 
+  364  ls
+  365  git log
+  366  git checkout 13dc406e31bc77
+  367  ls
+  368  git status 
+  369  git add history.txt  readme.md 
+  370  git status 
+  371  git add watch_git_objets/
+  372  git commit -m"watch_git_objects"
+  373  git checkout 13dc406e31bc77
+  374  git branch 
+  375  ls
+  376  cd styles/
+  377  ls
+  378  vim style.css 
+  379  ls
+  380  cd ..
+  381  ls
+  382  git status 
+  383  git commit -am'Background to green'
+  384  git log 
+  385  git branch -av
+  386  git checkout master 
+  387  gitk --all
+  388  git branch fix_css 533120c
+  389  tree -C
+  390  git status 
+  391  git commit -am"Update git,md notes"
+  392  git commit -ma"Update git,md notes"
+  393  git add git.md 
+  394  ls
+  395  git commit -ma"Update git,md notes"
+  396  git push -u origin master 
+  397  ls
+  398  vim styles/style.css 
+  399  git commit -ma"Backgroud to green"
+  400  git add styles/style.css 
+  401  git commit -ma"Backgroud to green"
+  402  git push -u origin master 
+  403  poweroff 
+  404  sudo poweroff
+  405  ls
+  406  cd git_learning/
+  407  ls
+  408  cat readme.md 
+  409  vim readme.md 
+  410  ls
+  411  cat history.txt > readme.md 
+  412  vim history.txt 
+  413  vim git.md
+  414  ls
+  415  cd git_learning/
+  416  ls
+  417  vim index.html 
+  418  ls
+  419  git branch -cv
+  420  ls
+  421  git branch 
+  422  git  branch -av
+  423  git status 
+  424  ls
+  425  cd styles/
+  426  ls
+  427  git status 
+  428  cd ..
+  429  ls
+  430  git pull 
+  431  git log 
+  432  git checkout -b ffix_readme fix_css
+  433  git log -n1
+  434  cat .git/HEAD 
+  435  cat .git/refs/heads/fix_css 
+  436  cat .git/refs/heads/ffix_readme 
+  437  git cat-file -t 533120cdf5f4
+  438  git diff HEAD HEAD^
+  439  git diff HEAD HEAD^^
+  440  git diff HEAD HEAD~2
+  441  LS
+  442  ls
+  443  git branch -av
+  444  git branch  -d ffix_readme 
+  445  ls
+  446  git branch  -d ffix_readme 
+  447  git branch  -D ffix_readme 
+  448  ls
+  449  git branch  -D ffix_readme
+  450  git branch -av
+  451  git branch  master 
+  452  git checkout master 
+  453  ls
+  454  git branch -av
+  455  git branch -d ffix_readme 
+  456  git branch -D ffix_readme 
+  457  git branch  -d fix_css 
+  458  git branch  -D fix_css 
+  459  git branch -av
+  460  ls
+  461  git status 
+  462  git commit -am'update notes'
+  463  ls
+  464  git status 
+  465  git push -u origin master 
+  466  ls
+  467  git log 
+  468  git log 1
+  469  git log -1
+  470  git commit --amend 
+  471  git log -1
+  472  ls
+  473  git log 
+  474  git rebase - i 93584f2513dd4d
+  475  ls
+  476  git log 
+  477  git rebase - i 403dc7e1f857a038ba2d563544a04b21461a7
+  478  git log 
+  479  git rebase - i a71a99370cbb7065da1fa
+  480  git log -n3
+  481  git rebase -i n3
+  482  git rebase -i -n3
+  483  git rebase -i HEAD^3
+  484  git rebase -i HEAD`3
+  485  git rebase -i HEAD~3
+  486  git status 
+  487  git rebase -i HEAD~3
+  488  git status 
+  489  git commit -am'Update notes'
+  490  git rebase -i HEAD~3
+  491  git status 
+  492  git log 
+  493  git rebase -i HEAD~8
+  494  ls
+  495  git log
+  496  git branch 
+  497  exit
+  498  cd git_learning/
+  499  vim git.md 
+  500  git log --graph 
+  501  git rebase -i HEAD~3
+  502  ls
+  503  git log 
+  504  vim git.md 
+  505  git rebase -i HEAD~4
+  506  git rebase -i HEAD~8
+  507  git log  --graph 
+  508  git rebase -i HEAD~8
+  509  git rebase -i HEAD~4
+  510  git rebase -i HEAD~3
+  511  git rebase --continue 
+  512  git status 
+  513  git rebase -i --edit-todo 
+  514  git rebase -i  HEAD^3
+  515  rm -rf /home/maxiaoan/git_learning/.git/rebase-merge/
+  516  ls
+  517  git status 
+  518  git reset HEAD master
+  519  ks
+  520  git status 
+  521  ls
+  522  git add 
+  523  git add  *
+  524  git status 
+  525  cat git.md 
+  526  ls
+  527  git commit 
+  528  git status 
+  529  ;s
+  530  git branch 
+  531  git checkout master 
+  532  git branch 
+  533  ls
+  534  cat git.md 
+  535  ls
+  536  git lo
+  537  git log 
+  538  git log --oneline 
+  539  git rebase -i HEAD^6
+  540  git rebase -i HEAD~6
+  541  git rebase -i HEAD~12
+  542  git rebase -i HEAD~5
+  543  git log 
+  544  git rebase -i 62b5453a311ab
+  545  git log --oneline 
+  546  git log 
+  547  tree
+  548  tree -a
+  549  ls
+  550  git status 
+  551  git push origin master 
+  552  git pull
+  553  ls
+  554  git status 
+  555  ks
+  556  ls
+  557  history 
+  558  ls
+  559  git status 
+  560  git add *
+  561  ls
+  562  git status 
+  563  git commit -m "modified git.md"
+  564  ls
+  565  git log 
+  566  ls
+  567  git status 
+  568  git push -u origin master 
+  569  ls
+  570  git status 
+  571  vim index.html 
+  572  git status 
+  573  git add index.html 
+  574  git status 
+  575  git diff --cached 
+  576  vim git.md 
+  577  git add git.md 
+  578  git diff --cached 
+  579  vim index.html 
+  580  git add index.html 
+  581  git diff --cached 
+  582  git commit -m"Add git first command with config"
+  583  git add index.html 
+  584  vim index.html 
+  585  git add index.html 
+  586  vim git.md 
+  587  git status 
+  588  git add index.html 
+  589  git status 
+  590  git add index.html 
+  591  git status 
+  592  git add git.md 
+  593  git status 
+  594  git reset HEAD 
+  595  LS
+  596  ks
+  597  ls
+  598  git status 
+  599  git add index.html 
+  600  git status 
+  601  vim index.html 
+  602  git status 
+  603  git checkout -- index.html
+  604  git status 
+  605  vim git.md 
+  606  ls
+  607  git status 
+  608  vim index.html 
+  609  git status 
+  610  git checkout -- index.html
+  611  git add git.md 
+  612  ls
+  613  git status 
+  614  git reset HEAD -- index.html
+  615  git status 
+  616  ls
+  617  vim git.md 
+  618  ls
+  619  git status 
+  620  git add  git.md 
+  621  git status 
+  622  ls
+  623  git branch -av
+  624  git checkout temp 
+  625  git log 
+  626  ls
+  627  git log --oneline 
+  628  tree -a
+  629  ks
+  630  ls
+  631  vim git.md 
+  632  git add git.md 
+  633  git commit m'update notes'
+  634  git commit m"update notes"
+  635  ls
+  636  git commit -m"update notes"
+  637  git status 
+  638  git checkout -- index.html
+  639  ls
+  640  git status 
+  641  git push -u origin master 
+  642  ls
+  643  exit
+  644  sudo poweroff 
+  645  systemctl enable --now cockpit.socket
+  646  ls
+  647  cd cpplessons/
+  648  ls
+  649  cd workdir/
+  650  ls
+  651  sudo poweroff
+  652  ls
+  653  cd cpplessons/
+  654  ls
+  655  ls -al
+  656  cd .git/
+  657  git config --global -l
+  658  cd ..
+  659  ls
+  660  Esc[2J; ; ; ; ; ; ]
+  661  vim test.c
+  662  gcc test.c 
+  663  ./a.out 
+  664  vim test.c
+  665  gcc test.c 
+  666  ./a.out 
+  667  ./a.out ls
+  668  cd ~
+  669  ls
+  670  who am i
+  671  ls
+  672  cd cpplessons/
+  673  ls
+  674  vim test.c 
+  675  ls
+  676  vim hello.cpp 
+  677  pwd
+  678  cd ~
+  679  ls
+  680  ls -al
+  681  vim .profile 
+  682  vim .viminfo 
+  683  cd .vim/
+  684  ls
+  685  vim vimrc 
+  686  cd ~
+  687  ls
+  688  cd cpplessons/
+  689  ls
+  690  vim hello.cpp 
+  691  sudo poweroff 
+  692  cd cpplessons/
+  693  ./a.out 
+  694  vim test.c 
+  695  clear 
+  696  wwho
+  697  who
+  698  ifconfig 
+  699  sudo yum     update 
+  700  ifconfig 
+  701  poweroff 
+  702  vim abc.log
+  703  ls
+  704  vim abc.log
+  705  ls
+  706  vim abc.log 
+  707  ls
+  708  ttt
+  709  tty
+  710  who
+  711  stty
+  712  termcap
+  713  terminfo
+  714  manual
+  715  man
+  716  ps
+  717  vmstat
+  718  free
+  719  stty
+  720  time
+  721  ntptime
+  722  sudo yum install ntptime
+  723  time
+  724  date
+  725  lps
+  726  ps
+  727  ls
+  728  ps
+  729  vmstat 
+  730  ps -ef
+  731  uptime 
+  732  more
+  733  ls
+  734  cd blog/
+  735  ls
+  736  more ch11-updates.html 
+  737  less ch11-updates.html 
+  738  od ch11-updates.html 
+  739  tail -f ch11-updates.html 
+  740  uniq ch11-updates.html 
+  741  vim demo.txt | tee  abc.log
+  742  history | tee abc.log 
+  743  tail -f abc.log 
+  744  ls
+  745  cd ~
+  746  ls
+  747  tail -f abc.log 
+  748  ls
+  749  ip
+  750  ifconfig 
+  751  LS
+  752  ls
+  753  ls -al
+  754  ls | grep .zip
+  755  zip linux-demo.tar.zip 
+  756  unzip linux-demo.tar.zip 
+  757  ls
+  758  tar -xvf linux-demo.tar.bz2 
+  759  ls
+  760  rm linux-demo.tar.*
+  761  ls
+  762  rm abc.log 
+  763  cd practical-sphinx/
+  764  ls
+  765  cd ~
+  766  ls
+  767  cd sphinx/
+  768  ls
+  769  cd ..
+  770  ls
+  771  mkdir linux_learning
+  772  mv ch* linux_learning/
+  773  ls
+  774  cd linux_learning/
+  775  ls
+  776  cd ch2/
+  777  ls
+  778  cat 180830.html 
+  779  ls
+  780  cd ..
+  781  ls
+  782   ls -l > filelist.txt
+  783  sort < filelist.txt 
+  784  sort <filelist.txt 
+  785  ls -l | sort 
+  786  ls -l
+  787  ls
+  788  sort
+  789  sort  filelist.txt 
+  790  ls -l | sort  filelist.txt 
+  791  cat filelist.txt 
+  792  cd ch2
+  793  more shudu.c 
+  794  ls -l | more 
+  795   less shudu.c 
+  796  cat -n shudu.c
+  797  cat  > mycmd.sh
+  798  cat mycmd.sh 
+  799  ./mycmd.sh
+  800  tail -f debug.txt
+  801  ls 
+  802  wc -l *.c
+  803  ps -ef | wc 
+  804  ps -ef | wc -l
+  805  man sort 
+  806  cat telnos | tr UVX uvx
+  807  cat shudu.c | tr define DEFINE
+  808  cat shudu.c
+  809  ls
+  810  cat wr.c  | tr '[a-z]' '[A-Z]'
+  811  ls
+  812  vim mytext.txt
+  813  vim mytext.txt | tr '[a-z]' '[A-Z]'
+  814  ls
+  815  cat mytext.txt 
+  816  cat list.txt 
+  817  uniq -u list.txt 
+  818  uniq -d list.txt 
+  819  uniq  list.txt 
+  820  uniq  list.txt -c
+  821  exit
+  822  poweroff 
+  823  sudo poweroff 
+  824  ls
+  825  wc -l
+  826  who | wc -l
+  827  ls -F
+  828  ls -FL
+  829  ls -Fl
+  830  cd linux_learning/
+  831  ls
+  832  ls -d .
+  833  ls -d ..
+  834  ls
+  835   ls *
+  836  ls -l /etc/
+  837  ls -l /etc/ | more
+  838  ls -ld /etc/ | more
+  839  ls -ldh /etc/ | more
+  840  ls
+  841  ls -F
+  842  ls -f
+  843  ls -d
+  844  ls -dhl
+  845  ls -l
+  846  ls -lh
+  847  ls -al
+  848  ls
+  849  cp filelist.txt  file.txt
+  850  ls
+  851  mkdir backup.d
+  852  cp file.txt backup.d/
+  853  cp backup.d/* .
+  854  ls
+  855  vim file.t
+  856  vim file.txt 
+  857  cp backup.d/* .
+  858  ls
+  859  cat file
+  860  cat file.txt 
+  861  mv file.txt demo.txt
+  862  ls
+  863  rm *.txt
+  864  ls
+  865  mv backup.d/*
+  866  mv backup.d/* .
+  867  ls
+  868  rm -f file.txt 
+  869  cd backup.d/
+  870  ls
+  871  history > file.txgt
+  872  mv file.txgt file.txt
+  873  ls
+  874  cd ..
+  875  ls
+  876  cp backup.d/* .
+  877  ls
+  878  rm -i
+  879   ls > -i
+  880  ls
+  881  rm -i
+  882  rm *i
+  883  rm -- -i
+  884  ls
+  885  ls >-i
+  886  rm -i
+  887  ls -a
+  888  ls -al
+  889  rm \-i
+  890  $HOME
+  891  ls -al
+  892  rm ./\-
+  893  rm ./\-i
+  894  ls
+  895  ls >-abc.txt
+  896  ls -al
+  897  cd /
+  898  cd ~
+  899  rsync --version
+  900  man rsync c
+  901  cd ~/linux_learning/
+  902  ls
+  903  find ch2/ ch3/ -name '*[ch]' -print
+  904  find ch2/ ch3/ -name '*[ch]' -print > cfiles.txt
+  905  ls
+  906  cat cfiles.txt |more
+  907  find ch2/ ch3/ -name '*[ch]' -type f
+  908  find ch2/ ch3/ -name '*[ch]' -type d
+  909  find ch2/ ch3/ -name '*[ch]' -type l
+  910  find ch2/ ch3/ -name '*[ch]' -type c
+  911  find ch2/ ch3/ -name '*[ch]' -type b
+  912  find ch2/ ch3/ -name '*[ch]' -type p
+  913  find ch2/ ch3/ -name '*[ch]' -size 1k
+  914  find -al ch2/ ch3/ -name '*[ch]' -size 1k
+  915  find -l ch2/ ch3/ -name '*[ch]' -size 1k
+  916  find  ch2/ ch3/ -name '*[ch]' -size 50k
+  917  find  ch2/ ch3/ -name '*[ch]' -size 10k
+  918  find  ch2/ ch3/ -name '*[ch]' -size 2k
+  919  cd ch2/
+  920  find /. -type d -print
+  921  find . -type d -print
+  922  find 
+  923  ls -al
+  924  find . -name 's*'-print
+  925  find . -name 's*'
+  926  find . -name 's*' -type -d  -print
+  927  find . -name 's*' -type d  -print
+  928  find / src
+  929  ls
+  930  man find
+  931  pwd
+  932  cd /
+  933  ls
+  934  cd ~/linux_learning/ch2/
+  935  ls
+  936  find work/ -print
+  937  tar cvf  work.tar work
+  938  find *.tar
+  939  tar tvf work.tar 
+  940  mkdir mytmp 
+  941  mv work.tar mytmp/
+  942  cd mytmp/
+  943  ls
+  944  tar xvf work.tar 
+  945  ls
+  946  cd work/
+  947  ls
+  948  tar cvfz work.tar.gz work
+  949  ls
+  950  cd ..
+  951  ls
+  952  tar cvfz work.tar.gz work
+  953  tar cvfj work.tar.bz2 work
+  954  ls -alh
+  955  ls
+  956  rm -rf work
+  957  gunzip  work.tar.gz 
+  958  ls
+  959  rm work.tar
+  960  gunzip  work.tar.gz 
+  961  ls
+  962  tar xvf work.tar
+  963  ls
+  964  rm -rf work work.tar
+  965  lsl
+  966  ls
+  967  tar xf work.tar.bz2 
+  968  ls
+  969  rm -r work
+  970  ls
+  971  bunzip2 work.tar.bz2 
+  972  ls
+  973  tar xvf work.tar 
+  974  ls
+  975  gzip  work.tar work.tar.gz
+  976  gzip  work.tar work.tar
+  977  ls
+  978  tar tvf work.tar.gz 
+  979  ls
+  980  rm -rf work
+  981  tar xvf work.tar.gz 
+  982  ls
+  983  cd work/
+  984  ls
+  985  cat work.tar.gz 
+  986  tar tvf work.tar.gz 
+  987  tar xvf work.tar.gz 
+  988  ls
+  989  tar xvf work.tar.gz
+  990  ls
+  991  rm work.tar.gz 
+  992  ls
+  993  cd ..
+  994  ls
+  995  rm work.tar.gz 
+  996  ls
+  997  cd ~
+  998  ls
+  999  sudo poweroff 
+ 1000  ls
+ 1001  cd cpplessons/
+ 1002  ls
+ 1003  cd workdir/
+ 1004  ls
+ 1005  cd ..
+ 1006  ls
+ 1007  rm workdir/
+ 1008  rm -rf workdir/
+ 1009  sl
+ 1010  ls
+ 1011  rm a.out 
+ 1012  rm *.c
+ 1013  ls
+ 1014  rm demo.txt 
+ 1015  rm hello.cpp 
+ 1016  ls
+ 1017  ls -al
+ 1018  git status 
+ 1019  git rm demo.txt hello.cpp 
+ 1020  ls
+ 1021  git status 
+ 1022  cd ..
+ 1023  mkdir NCCL
+ 1024  cd NCCL/
+ 1025  mkdir Lesson1
+ 1026  vim simple.c
+ 1027  gcc simple.c 
+ 1028  ls
+ 1029  ./a.out 
+ 1030  gcc simple.c -o simple
+ 1031  ls
+ 1032  ls -l
+ 1033  a.out
+ 1034  ./a.out
+ 1035  echo $0
+ 1036  ./a.out
+ 1037  echo $0
+ 1038  ls
+ 1039  ./simple 
+ 1040  echo $0
+ 1041  echo $?
+ 1042  vim simple.c 
+ 1043  gcc simple.c -o simple
+ 1044  echo $?
+ 1045  gcc simple.c -o simple
+ 1046  echo $?
+ 1047  gcc simple.c -o simple
+ 1048  echo $?
+ 1049  vim simple.c 
+ 1050  gcc simple.c -o simple
+ 1051  ./simple 
+ 1052  echo $?
+ 1053  ls
+ 1054  rm a.out 
+ 1055  mv simple simple.c Lesson1/
+ 1056  cd Lesson1/
+ 1057  ls
+ 1058  vim variable.c
+ 1059  gcc variable.c -o variable
+ 1060  vim variable.c
+ 1061  ./variable 
+ 1062  echo $?
+ 1063  vim variable.c
+ 1064  gcc variable.c -o variable
+ 1065  ./variable 
+ 1066  echo $?
+ 1067  vim variable.c
+ 1068  gcc variable.c -o variable
+ 1069  echo $?
+ 1070  ./variable 
+ 1071  echo $?
+ 1072  ls
+ 1073  vim variable.c 
+ 1074  ls
+ 1075  gcc variable.c -o variable
+ 1076  ./variable 
+ 1077  echo $?
+ 1078  objcopy -O binary -j .text a.out text.bin
+ 1079  ls
+ 1080  objcopy -O binary -j .text simple text.bin
+ 1081  objcopy -O binary -j .data simple text.bin
+ 1082  ls
+ 1083  ls -al
+ 1084  cat text.bin 
+ 1085  objcopy -O binary -j .data simple data.bin
+ 1086  objcopy -O binary -j .text simple text.bin
+ 1087  ls -l *.bin
+ 1088  ls -l simple
+ 1089  ls -lh simple
+ 1090   vim variable.c 
+ 1091  gcc -o variable variable.c 
+ 1092  ls
+ 1093  objcopy -O binary -j .text variable text.bin
+ 1094  objcopy -O binary -j .data variable data.bin
+ 1095  ls -l *.bin variable
+ 1096  ls
+ 1097  cat simple.c
+ 1098  gcc -S simple.c 
+ 1099  ls
+ 1100  gcc --help
+ 1101  ls
+ 1102  cat simple.s
+ 1103  vim simple.s
+ 1104  ls
+ 1105  vim variable
+ 1106  ls
+ 1107  file simple
+ 1108  file simple.c 
+ 1109  file simple
+ 1110  file simple.s
+ 1111  hexdump -C simple
+ 1112  ls
+ 1113  readelf 
+ 1114  readelf -a simple
+ 1115  readelf -a simple | more
+ 1116  readelf -a simple | less
+ 1117  readelf -a simple | more 
+ 1118     history  --help
+ 1119  ls
+ 1120  cd ..
+ 1121  ls
+ 1122  cd Lesson1/
+ 1123  history > command.txt

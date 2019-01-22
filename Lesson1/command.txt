@@ -1,0 +1,47 @@
+ 1023  mkdir NCCL
+ 1024  cd NCCL/
+ 1025  mkdir Lesson1
+ 1026  vim simple.c
+ 1027  gcc simple.c 
+ 1028  ls
+ 1029  ./a.out 
+ 1030  gcc simple.c -o simple
+ 1032  ls -l
+ 1034  ./a.out
+ 1048  echo $?
+ 1050  gcc simple.c -o simple
+ 1051  ./simple 
+ 1063  vim variable.c
+ 1064  gcc variable.c -o variable
+ 1065  ./variable 
+ 1066  echo $?
+ 1067  vim variable.c
+ 1068  gcc variable.c -o variable
+ 1069  echo $?
+ 1070  ./variable 
+ 1071  echo $?
+ 1077  echo $?
+ 1084  cat text.bin 
+ 1085  objcopy -O binary -j .data simple data.bin
+ 1086  objcopy -O binary -j .text simple text.bin
+ 1087  ls -l *.bin
+ 1088  ls -l simple
+ 1089  ls -lh simple
+ 1090   vim variable.c 
+ 1091  gcc -o variable variable.c 
+ 1092  ls
+ 1095  ls -l *.bin variable
+ 1096  ls
+ 1097  cat simple.c
+ 1098  gcc -S simple.c 
+ 1102  cat simple.s
+ 1103  vim simple.s
+ 1105  vim variable
+ 1107  file simple
+ 1108  file simple.c 
+ 1110  file simple.s
+ 1111  hexdump -C simple
+ 1115  readelf -a simple | more
+ 1116  readelf -a simple | less
+ 1117  readelf -a simple | more 
+
